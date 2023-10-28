@@ -1,0 +1,60 @@
+html{
+    background-color: black;
+}
+p{
+    color:white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 2vw;
+}
+.mainnav{
+    display:flex;
+    justify-content: space-between;
+
+}
+.mainnav>p{
+    margin-right: 2vw;
+}
+.prof{
+    display:flex;
+    justify-content: space-between;
+}
+.profile{
+display: flex;
+justify-content: center;
+
+}
+.search{
+    display:flex;
+    background-color:white;
+    height: 4vw;
+    width: 50vw;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:30vw ;
+    top: 2.5vw;
+}
+input{
+    height:2vw;
+    border: none;
+    border-radius: 10px;
+
+}
+button{
+    border: none;
+    position: relative;
+    top: 0.7vw;
+    left: 1vw;
+}
+#big{
+    position: relative;
+    top: 3vw;
+    left: 17vw;
+}
